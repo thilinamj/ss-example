@@ -2,11 +2,13 @@
   position: relative;
   min-height: 550px;
   overflow: hidden;
+  width:100%;
 
   .grid-container {
     position: relative;
     padding-right: 0;
     padding-left: 0;
+
   }
 
   &__slider {
@@ -15,6 +17,7 @@
       position: relative;
       z-index: 1 !important;
       overflow: hidden;
+
 
       &-image {
         position: absolute;

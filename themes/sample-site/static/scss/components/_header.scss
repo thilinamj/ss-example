@@ -1,5 +1,9 @@
-.top-bar ul{
+.top-bar {
   background-color: black;
+
+  ul{
+    background-color: black;
+  }
 }
 
 //$button-font-color: white;
@@ -33,10 +37,14 @@ ul li:hover ul {
 }
 
 .upperlogo {
-  display: flex;
+   display: flex;
   justify-content: center;
   align-items: center;
 
   margin-bottom: -60px;
   margin-top: -40px;
+
+  img{
+    hight:20px;
+  }
 }
