@@ -13,6 +13,7 @@
         <link rel="stylesheet" type="text/css" href="$resourceURL('themes/sample-site/static/dist/typehead.css')">
         <link rel="stylesheet" type="text/css" href="$resourceURL('themes/sample-site/static/dist/app.min.css')">
     </head>
+
         <% include Header %>
     <body class="body">
         <div class="off-canvas-content" data-off-canvas-content>

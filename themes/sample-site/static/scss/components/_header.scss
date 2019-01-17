@@ -1,3 +1,42 @@
-.top-bar {
+.top-bar ul{
   background-color: black;
+}
+
+//$button-font-color: white;
+//
+//.menue{
+//  color: #0A246A;
+//}
+
+.menu .menu-text {
+  padding: 0.7rem 1rem;
+  font-weight: bold;
+  line-height: 1;
+  color: white;
+}
+
+.menu a, .menu .button {
+  line-height: 1;
+  text-decoration: none;
+  display: block;
+  padding: 0.7rem 1rem;
+  color: white;
+}
+
+
+ul li:hover ul {
+
+  display: block;
+
+  color: red;
+
+}
+
+.upperlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: -60px;
+  margin-top: -40px;
 }
